@@ -11,10 +11,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bottle-grenn": "#12372A",
-        killarney: "#436850",
-        norway: "#ADBC9F",
-        "citrine-white": "#FBFADA",
+        "sm8-blue": {
+          50: "#f3f7fc",
+          100: "#e6f0f8",
+          200: "#c7dff0",
+          300: "#96c5e3",
+          400: "#5ea7d2",
+          500: "#3a8cbd",
+          600: "#266793",
+          700: "#235a81",
+          800: "#204c6c",
+          900: "#20415a",
+          950: "#152a3c",
+        },
       },
     },
   },

@@ -6,9 +6,9 @@ interface HeaderProps {
 
 export const Header = ({ navLinks }: HeaderProps) => {
   return (
-    <header className=" w-full px-4 md:px-8 lg:px-16 py-4 bg-bottle-grenn fixed">
+    <header className=" w-full px-4 md:px-8 lg:px-16 py-6 bg-sm8-blue-600 fixed">
       <nav className=" w-full flex justify-between">
-        <h1 className=" font-bold text-xl text-white">Future World</h1>
+        <h1 className=" font-bold text-xl text-white">SM8</h1>
         <ul className=" flex gap-4 text-xl">
           {navLinks.map((link, index) => (
             <Link href={link.to} key={index}>

@@ -1,0 +1,1 @@
+export { ProductsWrapperProps } from "./ProductsWrapper";
