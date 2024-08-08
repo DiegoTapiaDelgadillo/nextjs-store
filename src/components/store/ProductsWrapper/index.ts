@@ -1,1 +1,1 @@
-export { ProductsWrapperProps } from "./ProductsWrapper";
+export { ProductsWrapper } from "./ProductsWrapper";
